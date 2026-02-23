@@ -1,21 +1,39 @@
 {
-  "name": "untitled",
-  "private": true,
-  "version": "0.0.0",
+  "name": "matrix-task",
+  "version": "1.0.0",
+  "description": "Albert's task scheduler",
+  "main": "main.cjs",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:start": "electron .",
+    "pack:exe": "vite build && electron-builder --win --x64"
   },
   "dependencies": {
-    "lucide-react": "^0.575.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^32.3.3",
+    "electron-builder": "^25.1.8",
+    "vite": "^5.4.1"
+  },
+  "build": {
+    "appId": "com.albert.matrixtask",
+    "productName": "MatrixTask",
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "public/icon.ico"
+    }
   }
 }
