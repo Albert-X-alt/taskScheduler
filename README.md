@@ -4,11 +4,11 @@ An intuitive task management and scheduling application based on the **"Importan
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **MatrixTask** is a modern task management tool that visualizes the **Eisenhower Matrix** (The Four Quadrants Rule). It moves away from traditional linear to-do lists, allowing users to intuitively plan task priorities by dragging and dropping within a visual 2D coordinate system.
 
-## ✨ Core Features
+## Core Features
 
 ### 1. Visual Matrix View
 
@@ -148,7 +148,7 @@ The following features are planned for future versions based on the design docum
 
 ---
 
-## 🤝 Contribution & Feedback
+## Contribution & Feedback
 
 If you are interested in this project, feel free to submit an **Issue** to discuss new features or report bugs. **Pull Requests** are also welcome!
 
