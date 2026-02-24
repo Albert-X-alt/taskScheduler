@@ -90,7 +90,7 @@ To run this project locally, you need to have **Node.js** (v18+ recommended) ins
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/Albert-X-alt/taskScheduler.git
-[cite_start]``` [cite: 32, 33]
+``` 
 
 ```
 
@@ -107,17 +107,14 @@ cd taskScheduler
 ```bash
 npm install
 npm install lucide-react
-[cite_start]``` [cite: 36, 37, 38]
+``` 
 
-```
+
 
 
 4. **Start the development server:**
 ```bash
 npm run dev
-[cite_start]``` [cite: 39, 40]
-
-
 ```
 
 
